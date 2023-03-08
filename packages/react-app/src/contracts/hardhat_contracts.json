@@ -1,0 +1,73 @@
+{
+  "1313161555": [
+    {
+      "name": "aurora",
+      "chainId": "1313161555",
+      "contracts": {
+        "YourContract": {
+          "address": "0x6FEb50b6845dafed080f23eD4DDC2aD770d230E7",
+          "abi": [
+            {
+              "inputs": [],
+              "stateMutability": "payable",
+              "type": "constructor"
+            },
+            {
+              "anonymous": false,
+              "inputs": [
+                {
+                  "indexed": false,
+                  "internalType": "address",
+                  "name": "sender",
+                  "type": "address"
+                },
+                {
+                  "indexed": false,
+                  "internalType": "string",
+                  "name": "purpose",
+                  "type": "string"
+                }
+              ],
+              "name": "SetPurpose",
+              "type": "event"
+            },
+            {
+              "stateMutability": "payable",
+              "type": "fallback"
+            },
+            {
+              "inputs": [],
+              "name": "purpose",
+              "outputs": [
+                {
+                  "internalType": "string",
+                  "name": "",
+                  "type": "string"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "string",
+                  "name": "newPurpose",
+                  "type": "string"
+                }
+              ],
+              "name": "setPurpose",
+              "outputs": [],
+              "stateMutability": "payable",
+              "type": "function"
+            },
+            {
+              "stateMutability": "payable",
+              "type": "receive"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
