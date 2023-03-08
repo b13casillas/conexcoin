@@ -39,6 +39,13 @@ export const NETWORKS = {
     rpcUrl: `https://mainnet.infura.io/v3/${INFURA_ID}`,
     blockExplorer: "https://etherscan.io/",
   },
+  aurora: {
+    name: "aurora",
+    color: "#ff8b9e",
+    chainId: 1313161555,
+    rpcUrl: `https://testnet.aurora.dev`,
+    blockExplorer: "https://etherscan.io/",
+  },
   goerli: {
     name: "goerli",
     color: "#0975F6",
